@@ -45,7 +45,8 @@ lub metod.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 perl -ni -e 'BEGIN{undef $/}print "#!/usr/bin/perl\n$_"' demo/*.pl
