@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Class
-%define	pnam	Multimethods
+%define		pdir	Class
+%define		pnam	Multimethods
 Summary:	Class::Multimethods - support multimethods and function overloading in Perl
 Summary(pl):	Class::Multimethods - obs³uga wielometod i przeci±¿ania funkcji w Perlu
 Name:		perl-Class-Multimethods
