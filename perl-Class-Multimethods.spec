@@ -10,7 +10,8 @@ Summary(pl):	Class::Multimethods - obs³uga wielometod i przeci±¿ania funkcji w P
 Name:		perl-Class-Multimethods
 Version:	1.70
 Release:	3
-License:	Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5fdc79daa81b102b956b1a61531fd6a7
