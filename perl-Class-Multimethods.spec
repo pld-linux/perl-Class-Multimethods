@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	Multimethods
 Summary:	Class::Multimethods - support multimethods and function overloading in Perl
-Summary(pl):	Class::Multimethods - obs³uga wielometod i przeci±¿ania funkcji w Perlu
+Summary(pl.UTF-8):   Class::Multimethods - obsÅ‚uga wielometod i przeciÄ…Å¼ania funkcji w Perlu
 Name:		perl-Class-Multimethods
 Version:	1.70
 Release:	4
@@ -26,10 +26,10 @@ can be used to declare other subroutines that are dispatched using a
 algorithm different from the normal Perl subroutine or method dispatch
 mechanism.
 
-%description -l pl
-Modu³ Class::Multimethod eksportuje funkcjê (&multimethod), która mo¿e
-byæ u¿yta do deklarowania innych funkcji, które mog± byæ wysy³ane przy
-u¿yciu innego algorytmu ni¿ normalnie u¿ywany przez Perla dla funkcji
+%description -l pl.UTF-8
+ModuÅ‚ Class::Multimethod eksportuje funkcjÄ™ (&multimethod), ktÃ³ra moÅ¼e
+byÄ‡ uÅ¼yta do deklarowania innych funkcji, ktÃ³re mogÄ… byÄ‡ wysyÅ‚ane przy
+uÅ¼yciu innego algorytmu niÅ¼ normalnie uÅ¼ywany przez Perla dla funkcji
 lub metod.
 
 %prep
