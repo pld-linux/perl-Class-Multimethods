@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	Multimethods
 Summary:	Class::Multimethods - support multimethods and function overloading in Perl
-Summary(pl.UTF-8):   Class::Multimethods - obsługa wielometod i przeciążania funkcji w Perlu
+Summary(pl.UTF-8):	Class::Multimethods - obsługa wielometod i przeciążania funkcji w Perlu
 Name:		perl-Class-Multimethods
 Version:	1.70
 Release:	4
