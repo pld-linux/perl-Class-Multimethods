@@ -9,7 +9,7 @@ Summary:	Class::Multimethods - support multimethods and function overloading in 
 Summary(pl.UTF-8):	Class::Multimethods - obsługa wielometod i przeciążania funkcji w Perlu
 Name:		perl-Class-Multimethods
 Version:	1.70
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
