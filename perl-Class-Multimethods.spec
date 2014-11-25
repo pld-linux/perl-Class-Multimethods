@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Class
 %define		pnam	Multimethods
+%include	/usr/lib/rpm/macros.perl
 Summary:	Class::Multimethods - support multimethods and function overloading in Perl
 Summary(pl.UTF-8):	Class::Multimethods - obsługa wielometod i przeciążania funkcji w Perlu
 Name:		perl-Class-Multimethods
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5fdc79daa81b102b956b1a61531fd6a7
+URL:		http://search.cpan.org/dist/Class-Multimethods/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
