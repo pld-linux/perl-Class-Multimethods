@@ -4,7 +4,6 @@
 
 %define		pdir	Class
 %define		pnam	Multimethods
-%include	/usr/lib/rpm/macros.perl
 Summary:	Class::Multimethods - support multimethods and function overloading in Perl
 Summary(pl.UTF-8):	Class::Multimethods - obsługa wielometod i przeciążania funkcji w Perlu
 Name:		perl-Class-Multimethods
