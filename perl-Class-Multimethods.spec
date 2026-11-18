@@ -7,13 +7,13 @@
 Summary:	Class::Multimethods - support multimethods and function overloading in Perl
 Summary(pl.UTF-8):	Class::Multimethods - obsługa wielometod i przeciążania funkcji w Perlu
 Name:		perl-Class-Multimethods
-Version:	1.70
-Release:	6
+Version:	1.701
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	5fdc79daa81b102b956b1a61531fd6a7
+Source0:	https://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	84a93a1e59b64f6c90b68903c1bc0f94
 URL:		http://search.cpan.org/dist/Class-Multimethods/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -33,7 +33,8 @@ użyciu innego algorytmu niż normalnie używany przez Perla dla funkcji
 lub metod.
 
 %prep
-%setup -q -n %{pdir}-%{pnam}-%{version}
+# upstream 1.701 tarball still unpacks to the 1.700 directory
+%setup -q -n %{pdir}-%{pnam}-1.700
 
 %build
 %{__perl} Makefile.PL \
